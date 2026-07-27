@@ -14,20 +14,24 @@ https://full-stack-todo-list-vbw6.onrender.com
 ## Screenshots
 
 ### Login Page
-![Login](./screenshots/login.png)
+
+![Login Page](./screenshots/login.png)
 
 ### Signup Page
-![Signup](./screenshots/signup.png)
+
+![Signup Page](./screenshots/signup.png)
 
 ### Dashboard
+
 ![Dashboard](./screenshots/dashboard.png)
 
-### Create Todo
-![Create Todo](./screenshots/todo-creating.png)
+### Creating Todo
 
-### todos page
-![todos page](./screenshots/todos-page.png)
+![Creating Todo](./screenshots/todo-creating.png)
 
+### Todos Page
+
+![Todos Page](./screenshots/todos-page.png)
 ## Features
 
 - User registration and login
