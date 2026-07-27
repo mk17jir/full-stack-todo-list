@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+body {
+  background: #f8fafc;
+  color: #0f172a;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.dark body {
+  background: #020617;
+  color: #f8fafc;
+}
+
+
+
+@layer components {
+
+
+  .input-box {
+
+    @apply 
+    w-full
+    text-sm
+    bg-transparent
+    border-[1.9px]
+    border-slate-400
+    rounded-md
+    px-6
+    py-3
+    mb-5
+    outline-none
+    focus:border-blue-500
+    transition-colors
+    dark:text-white
+    dark:border-slate-600
+    dark:placeholder:text-slate-400;
+
+  }
+
+
+
+  .btn {
+
+    @apply
+    w-full
+    bg-blue-500
+    text-white
+    hover:bg-blue-400
+    my-1
+    border
+    px-5
+    py-3
+    rounded
+    mb-4
+    outline-none
+    transition;
+
+  }
+
+
+
+  .icon-btn {
+
+    @apply
+    mt-5
+    text-2xl
+    text-slate-300
+    hover:text-blue-500
+    cursor-pointer
+    dark:text-slate-500
+    dark:hover:text-blue-400;
+
+  }
+
+
+
+  .label-input {
+
+    @apply
+    text-xl
+    text-slate-500
+    mb-2
+    mt-4
+    font-semibold
+    dark:text-slate-300;
+
+  }
+
+}
+
+
+
+/* Password reveal buttons */
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+
+  display:none;
+
+}
+
+
+
+input[type="search"]::-webkit-search-cancel-button {
+
+  -webkit-appearance:none;
+  appearance:none;
+
+}
