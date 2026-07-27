@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-import Password from "../components/Password.jsx";
+import Password from "../components/password.jsx";
 import { validEmail } from "../lib/config.js";
 
 import toast from "react-hot-toast";
