@@ -48,12 +48,12 @@ const AddAndEdit = ({ type, todoData, onClose, onSuccess }) => {
 
       const token = localStorage.getItem("token");
 
-      let url = "http://localhost:5000/api/todos";
+      let url = "https://full-stack-todo-list-vbw6.onrender.com/api/todos";
 
       let method = "POST";
 
       if (type === "edit") {
-        url = `http://localhost:5000/api/todos/${todoData._id}`;
+        url = `https://full-stack-todo-list-vbw6.onrender.com/api/todos/${todoData._id}`;
 
         method = "PUT";
       }

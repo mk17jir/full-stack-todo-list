@@ -19,7 +19,7 @@ const Dashboard = ({ search }) => {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/todos?search=${searchValue}`,
+        `https://full-stack-todo-list-vbw6.onrender.com/api/todos?search=${searchValue}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -63,7 +63,7 @@ const Dashboard = ({ search }) => {
     try {
       const token = localStorage.getItem("token");
 
-      const response = await fetch(`http://localhost:5000/api/todos/${id}`, {
+      const response = await fetch(`https://full-stack-todo-list-vbw6.onrender.com/api/todos/${id}`, {
         method: "DELETE",
 
         headers: {
@@ -129,7 +129,7 @@ const Dashboard = ({ search }) => {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/todos/${id}/pin`,
+        `https://full-stack-todo-list-vbw6.onrender.com/api/todos/${id}/pin`,
 
         {
           method: "PUT",
@@ -157,7 +157,7 @@ const Dashboard = ({ search }) => {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/todos/${id}/complete`,
+        `https://full-stack-todo-list-vbw6.onrender.com/api/todos/${id}/complete`,
 
         {
           method: "PUT",
