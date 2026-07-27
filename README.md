@@ -5,7 +5,7 @@ A full-stack todo management application with authentication, task management, s
 ## Live Demo
 
 Frontend:
-https://your-vercel-url.vercel.app
+https://full-stack-todo-list-theta.vercel.app/login
 
 Backend API:
 https://full-stack-todo-list-vbw6.onrender.com
