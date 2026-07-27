@@ -10,6 +10,24 @@ https://full-stack-todo-list-theta.vercel.app/login
 Backend API:
 https://full-stack-todo-list-vbw6.onrender.com
 
+
+## Screenshots
+
+### Login Page
+![Login](./screenshots/login.png)
+
+### Signup Page
+![Signup](./screenshots/signup.png)
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### Create Todo
+![Create Todo](./screenshots/todo-creating.png)
+
+### todos page
+![todos page](./screenshots/todos-page.png)
+
 ## Features
 
 - User registration and login
